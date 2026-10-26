@@ -9,6 +9,23 @@
 - 单文件，`calltrace.py` 拷走就能用
 - **脱敏发生在落盘前**：原始凭据不进记录文件
 
+<!-- ipos:install -->
+## 安装
+
+零依赖，Python 3.10+ 即可：
+
+```bash
+pip install nubevigor-calltrace
+```
+
+装完直接用命令名调用：
+
+```bash
+calltrace --help
+```
+
+也可以不用安装，直接把 `calltrace.py` 拷走用——它只依赖标准库。
+
 ## 为什么需要它
 
 线上接口出问题时，最难受的往往不是不会修，而是**复现不了**。
